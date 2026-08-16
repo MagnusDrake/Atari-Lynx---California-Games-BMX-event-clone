@@ -76,10 +76,10 @@ fun TitleMenuOverlay(
                         color = ElegantTextPrimary
                     )
                     Text(
-                        text = "ATARI LYNX 16-BIT EDITION",
+                        text = "ATARI LYNX 3D ISOMETRIC EDITION",
                         fontSize = 9.sp,
-                        fontWeight = FontWeight.Medium,
-                        color = ElegantTextSecondary,
+                        fontWeight = FontWeight.Bold,
+                        color = ElegantPrimaryLavender,
                         letterSpacing = 1.sp
                     )
                 }

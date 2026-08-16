@@ -14,7 +14,7 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
-@Config(sdk = [36])
+@Config(sdk = [34])
 class ExampleRobolectricTest {
 
     @Test
@@ -48,7 +48,7 @@ class ExampleRobolectricTest {
         assertTrue(engine.velX > 0f)
         assertEquals(RiderPose.PEDALING, engine.riderPose)
 
-        // Simulate Jump
+        // Simulate Jump in 3D (velZ > 0f)
         engine.update(
             dt = 0.1f,
             isPedalPressed = false,
@@ -60,7 +60,7 @@ class ExampleRobolectricTest {
         )
 
         assertTrue(!engine.isOnGround)
-        assertTrue(engine.velY < 0f)
+        assertTrue(engine.velZ > 0f)
     }
 
     @Test
