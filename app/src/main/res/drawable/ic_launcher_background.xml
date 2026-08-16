@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Sunset sky gradient -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="0"
+                android:endX="54"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1A0933" />
+                <item android:offset="0.3" android:color="#4A154B" />
+                <item android:offset="0.6" android:color="#E05338" />
+                <item android:offset="0.85" android:color="#FDB827" />
+                <item android:offset="1.0" android:color="#401B10" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Retro sun disk -->
+    <path
+        android:fillColor="#FFE600"
+        android:pathData="M54,30 A24,24 0 0,0 30,54 L78,54 A24,24 0 0,0 54,30 Z" />
+    <path
+        android:fillColor="#FF9100"
+        android:pathData="M31,56 L77,56 L76,60 L32,60 Z" />
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M34,62 L74,62 L73,65 L35,65 Z" />
+    <!-- Dirt hills in foreground -->
+    <path
+        android:fillColor="#5D3A1A"
+        android:pathData="M0,82 Q25,68 50,84 T108,76 L108,108 L0,108 Z" />
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M0,90 Q30,78 65,92 T108,86 L108,108 L0,108 Z" />
+</vector>
+

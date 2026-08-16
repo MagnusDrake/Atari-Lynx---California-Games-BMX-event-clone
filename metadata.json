@@ -1,0 +1,6 @@
+{
+  "name": "Lynx BMX",
+  "description": "Authentic Atari Lynx BMX California Games retro clone with pixel physics, tricks, and 8-bit chiptune sound.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
